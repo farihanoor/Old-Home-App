@@ -23,7 +23,7 @@ class _MainPageState extends State<MainPage> {
                 ButtonWidget(
                   text: 'Asset PDF',
                   onClicked: () async {
-                    final path = 'assets/1-converted.pdf';
+                    final path = 'assets/pdf/1-converted.pdf';
                     final file = await PDFApi.loadAsset(path);
                     openPDF(context, file);
                   },

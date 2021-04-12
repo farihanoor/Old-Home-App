@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 //import 'dart:io';
 //import 'package:flutter/services.dart';
 import './mainPage.dart';
+import './constant_color.dart';
+import './splash.dart';
 
 
 
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: Colors.white,
         ),
-        home: MainPage(),
+        home: SplashScreen(),
       );
 }
 
