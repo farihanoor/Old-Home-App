@@ -15,6 +15,7 @@ class ChooseMobile extends StatelessWidget {
     return Scaffold(
       body: Container(        
         decoration: BoxDecoration(
+          
           image: DecorationImage(
             image: AssetImage(
               "assets/images/bg.png",
@@ -31,8 +32,12 @@ class ChooseMobile extends StatelessWidget {
             children: events.map( (title) {
                 return GestureDetector(
                   child: Card(
+                    elevation:7,
                       margin: const EdgeInsets.all(20.0),
-                      child: getCardByTitle(title)),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10.0),
+                      ),
+                      child: getCardByTitle(title)),  
                    onTap: () {
                   Navigator.push(
                     context, 

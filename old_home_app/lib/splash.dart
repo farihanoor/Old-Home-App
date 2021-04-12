@@ -3,7 +3,10 @@ import 'package:flutter_svg/flutter_svg.dart';
 //import 'package:flutter_splash_screen/home/home.dart';
 //import './mainPage.dart';
 //import './gridLayout.dart';
-import './chooseMobile.dart';
+//import './chooseMobile.dart';
+//import 'button_english.dart';
+import 'language.dart';
+import './gridEnglish.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -20,10 +23,11 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(d, () {
       Navigator.pushAndRemoveUntil(
         context,
-        MaterialPageRoute(builder: (context) {
-          return ChooseMobile();
-        },
-      ),
+        MaterialPageRoute(
+          builder: (context) {
+            return Language();
+          },
+        ),
         (route) => false,
       );
     });

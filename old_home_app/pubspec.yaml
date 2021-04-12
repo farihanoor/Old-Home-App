@@ -4,9 +4,11 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.3.0 <3.0.0"
 
+  
 dependencies:
   flutter:
     sdk: flutter
+  flutter_grid_button: 
 
   cupertino_icons: ^1.0.0
   fluttertoast: 8.0.3
@@ -53,5 +55,11 @@ flutter:
     - assets/images/me_time.png
     - assets/images/team_time.png
     - assets/images/android.png
+    - assets/images/youtube.png
     - assets/images/iphone.png
+    - assets/images/wa.png
+    - assets/images/phone.png
+    - assets/images/yt.png
+    - assets/images/imo.png
+    - assets/images/whatsapp.png
     - assets/pdf/Camerapdf_trail.pdf
