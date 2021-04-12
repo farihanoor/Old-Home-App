@@ -9,10 +9,12 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.0
+  fluttertoast: 8.0.3
   flutter_svg: ^0.21.0+1
 
   # display PDF
   flutter_pdfview: ^1.0.4
+  pdf: ^1.4
 
   # path
   file_picker: ^2.1.6
@@ -43,3 +45,13 @@ flutter:
     - assets/images/coffeeStandEdited.png
     - assets/images/icon-facebook.svg
     - assets/pdf/1-converted.pdf
+    - assets/images/bg.png
+    - assets/images/calendar.png
+    - assets/images/family_time.png
+    - assets/images/friends.png
+    - assets/images/lovely_time.png
+    - assets/images/me_time.png
+    - assets/images/team_time.png
+    - assets/images/android.png
+    - assets/images/iphone.png
+    - assets/pdf/Camerapdf_trail.pdf

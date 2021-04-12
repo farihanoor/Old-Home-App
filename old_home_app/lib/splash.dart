@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 //import 'package:flutter_splash_screen/home/home.dart';
-import './mainPage.dart';
+//import './mainPage.dart';
+//import './gridLayout.dart';
+import './chooseMobile.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -19,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushAndRemoveUntil(
         context,
         MaterialPageRoute(builder: (context) {
-          return MainPage();
+          return ChooseMobile();
         },
       ),
         (route) => false,
